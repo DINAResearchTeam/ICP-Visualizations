@@ -6,13 +6,13 @@ classes:
   - wide
 permalink: /
 feature_row:
-  - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+  - image_path: /assets/images/treemap.png
     alt: "placeholder image 1"
     url: "#test-link"
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /assets/images/treemap.png
     alt: "placeholder image 2"
     url: "#test-link"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+  - image_path: /assets/images/treemap.png
     alt: "placeholder image 3"
     url: "#test-link"
 
