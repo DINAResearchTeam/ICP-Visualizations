@@ -32,7 +32,7 @@ body {
 
 /* Estilo para las imágenes */
 .grid-image {
-  width: 100%;   /* Las imágenes ocuparán todo el ancho del ítem */
+  width: 30%;   /* Las imágenes ocuparán todo el ancho del ítem */
   height: auto;  /* Mantienen su relación de aspecto */
   max-height: 150px; /* Limita la altura máxima de las imágenes para que no se estiren */
   object-fit: cover; /* Hace que las imágenes cubran el área del contenedor sin distorsionarse */
