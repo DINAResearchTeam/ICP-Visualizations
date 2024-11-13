@@ -20,17 +20,22 @@ Este repositorio está destinado a compartir y almacenar las visualizaciones int
 <div class="grid-container">
   <div class="grid-item">
     <a href="assets/Pregunta06_V7.html" target="_blank">
-      <img src="assets/images/bar.png" alt="Imagen 1" class="grid-image">
+      <img src="assets/images/preview1.png" alt="Imagen 1" class="grid-image">
     </a>
   </div>
   <div class="grid-item">
     <a href="assets/Pregunta06_V7.html" target="_blank">
-      <img src="assets/images/treemap.png" alt="Imagen 1" class="grid-image">
+      <img src="assets/images/preview2.png" alt="Imagen 1" class="grid-image">
     </a>
   </div>
   <div class="grid-item">
     <a href="assets/Pregunta06_V7.html" target="_blank">
-      <img src="assets/images/double.png" alt="Imagen 1" class="grid-image">
+      <img src="assets/images/preview3.png" alt="Imagen 1" class="grid-image">
+    </a>
+  </div>
+  <div class="grid-item">
+    <a href="assets/Pregunta06_V7.html" target="_blank">
+      <img src="assets/images/preview4.png" alt="Imagen 1" class="grid-image">
     </a>
   </div>
 </div>
