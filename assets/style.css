@@ -31,9 +31,8 @@ body {
 
 /* Estilo para las imágenes */
 .grid-image {
-  width: 100%;  /* Las imágenes ocuparán todo el ancho del ítem */
+  width: 100%;   /* Las imágenes ocuparán todo el ancho del ítem */
   height: auto;  /* Mantienen su relación de aspecto */
-  max-height: 150px; /* Limita la altura máxima de las imágenes */
   object-fit: cover; /* Hace que las imágenes cubran el área del contenedor sin distorsionarse */
   border-radius: 8px;
   transition: transform 0.3s ease;
@@ -65,7 +64,7 @@ h2 {
   }
 
   .grid-image {
-    max-height: 120px; /* Reduce la altura máxima de las imágenes en pantallas más pequeñas */
+    max-height: 150px; /* Reduce la altura máxima de las imágenes en pantallas más pequeñas */
   }
 
   h2 {
@@ -80,7 +79,7 @@ h2 {
   }
 
   .grid-image {
-    max-height: 100px; /* Reduce aún más el tamaño de las imágenes */
+    max-height: 120px; /* Reduce aún más el tamaño de las imágenes */
   }
 
   h2 {
