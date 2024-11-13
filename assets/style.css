@@ -1,88 +1,47 @@
-/* Estilos básicos para la página */
-body {
-  background-color: #f4f4f4;
-  color: #333;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-/* Estilo para el grid */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas como máximo */
-  gap: 20px;
-  padding: 20px;
-  margin: 0;
-  grid-auto-rows: 200px; /* Establece una altura estándar para las filas */
-}
-
-/* Estilo para cada ítem dentro del grid */
-.grid-item {
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 10px;
-  text-align: center;
-  overflow: hidden; /* Para evitar que las imágenes se desborden del contenedor */
-  box-sizing: border-box;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Estilo para las imágenes */
-.grid-image {
-  width: 100%;   /* Las imágenes ocuparán todo el ancho del ítem */
-  height: auto;  /* Mantienen su relación de aspecto */
-  object-fit: cover; /* Hace que las imágenes cubran el área del contenedor sin distorsionarse */
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
-
-/* Efecto hover para las imágenes */
-.grid-item:hover {
-  transform: translateY(-10px); /* Mueve el ítem hacia arriba */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra al pasar el ratón */
-}
-
-/* Efecto hover para las imágenes */
-.grid-item:hover .grid-image {
-  transform: scale(1.05); /* Aumenta ligeramente el tamaño de la imagen cuando se pasa el ratón */
-}
-
-/* Estilos para los títulos de las páginas */
-h2 {
-  font-size: 1.2rem;
-  color: #333;
-  margin-top: 10px;
-  text-decoration: none;
-}
-
-/* Media queries para pantallas medianas */
-@media (max-width: 768px) {
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr); /* 2 columnas por fila en pantallas medianas */
+ div.gallery:hover {
+    transform: translateY(-10px); /* Mueve el ítem hacia arriba */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra al pasar el ratón */
   }
 
-  .grid-image {
-    max-height: 150px; /* Reduce la altura máxima de las imágenes en pantallas más pequeñas */
+  div.gallery:hover img {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la imagen cuando se pasa el ratón */
   }
-
-  h2 {
-    font-size: 1.1rem; /* Ajusta el tamaño del texto en pantallas más pequeñas */
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
   }
-}
-
-/* Media queries para pantallas pequeñas */
-@media (max-width: 480px) {
-  .grid-container {
-    grid-template-columns: 1fr; /* 1 columna por fila en pantallas muy pequeñas */
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
   }
-
-  .grid-image {
-    max-height: 120px; /* Reduce aún más el tamaño de las imágenes */
+  
+  * {
+    box-sizing: border-box;
   }
-
-  h2 {
-    font-size: 1rem; /* Reduce el tamaño del texto aún más */
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
   }
-}
+  
+  @media only screen and (max-width: 800px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
