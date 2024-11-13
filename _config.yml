@@ -9,3 +9,18 @@ plugins:
 include: ["_pages"]
 title: "V Congreso Iberoamericano de Investigación en Conservación del Patrimonio"
 subtitle: "ICP 2024"
+
+footer:
+  links:
+    - label: "X"
+      icon: "fab fa-fw fa-x"
+      url: "https://twitter.com/mmistakes"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/ClioViz/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/clioviz/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCWGHwvW7nhxWyKco1wtmYhw"
