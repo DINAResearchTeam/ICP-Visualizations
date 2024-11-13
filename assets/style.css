@@ -11,7 +11,7 @@ body {
 /* Estilo para el grid */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Grid responsivo, columnas ajustables */
+  grid-template-columns: repeat(3, 1fr); /* Máximo 3 columnas en el grid */
   gap: 20px;
   padding: 20px;
   margin: 0;
@@ -58,10 +58,10 @@ h2 {
   text-decoration: none;
 }
 
-/* Media queries para cambiar el tamaño en pantallas pequeñas */
+/* Media queries para pantallas medianas */
 @media (max-width: 768px) {
   .grid-container {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajusta las columnas en pantallas más pequeñas */
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas por fila en pantallas medianas */
   }
 
   .grid-image {
@@ -73,9 +73,10 @@ h2 {
   }
 }
 
+/* Media queries para pantallas pequeñas */
 @media (max-width: 480px) {
   .grid-container {
-    grid-template-columns: 1fr; /* Muestra una sola columna en pantallas muy pequeñas */
+    grid-template-columns: 1fr; /* 1 columna por fila en pantallas muy pequeñas */
   }
 
   .grid-image {
