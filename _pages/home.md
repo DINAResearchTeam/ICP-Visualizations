@@ -22,7 +22,7 @@ feature_row:
 
 Este repositorio está destinado a compartir y almacenar las visualizaciones interactivas generadas en para el proyecto de la Universitat de València: “Visualización avanzada de datos históricos a través de mapas multidimensionales y gráficos interactivos (ClioViz)” para el congreso [Investigaciones en Conservación del Patrimonio – ICP 2024](http://cultura.upv.es/actividades/content/congresos_jornadas/content/2024_icp/cas/index.html).
 
-{% include feature_row center%}
+{% include feature_row id="feature_row" type="center" %}
 
 
 
