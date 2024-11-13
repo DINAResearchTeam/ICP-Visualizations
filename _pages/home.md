@@ -15,7 +15,7 @@ feature_row:
   - image_path: /assets/images/treemap.png
     alt: "placeholder image 3"
     url: "#test-link"
-
+entries_layout: grid
 
 ---
 # Visualizaciones – Investigaciones en Conservación del Patrimonio (ICP 2024)
