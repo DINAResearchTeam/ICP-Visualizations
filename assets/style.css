@@ -1,6 +1,6 @@
 /* Estilos básicos para la página */
 body {
-  font-family: Arial, sans-serif;
+  /*font-family: Arial, sans-serif;*/
   background-color: #f4f4f4;
   color: #333;
   text-align: center;
@@ -11,10 +11,11 @@ body {
 /* Estilo para el grid */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Máximo 3 columnas en el grid */
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas como máximo */
   gap: 20px;
   padding: 20px;
   margin: 0;
+  grid-auto-rows: 200px; /* Establece una altura estándar para las filas */
 }
 
 /* Estilo para cada ítem dentro del grid */
@@ -33,7 +34,7 @@ body {
 .grid-image {
   width: 100%;   /* Las imágenes ocuparán todo el ancho del ítem */
   height: auto;  /* Mantienen su relación de aspecto */
-  max-height: 200px; /* Limita la altura máxima de las imágenes para que no se estiren */
+  max-height: 150px; /* Limita la altura máxima de las imágenes para que no se estiren */
   object-fit: cover; /* Hace que las imágenes cubran el área del contenedor sin distorsionarse */
   border-radius: 8px;
   transition: transform 0.3s ease;
@@ -52,7 +53,7 @@ body {
 
 /* Estilos para los títulos de las páginas */
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #333;
   margin-top: 10px;
   text-decoration: none;
@@ -69,7 +70,7 @@ h2 {
   }
 
   h2 {
-    font-size: 1.2rem; /* Ajusta el tamaño del texto en pantallas más pequeñas */
+    font-size: 1.1rem; /* Ajusta el tamaño del texto en pantallas más pequeñas */
   }
 }
 
