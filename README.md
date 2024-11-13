@@ -1,13 +1,10 @@
 ---
-classes: wide
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: false
+classes:
+layout: splash
+classes:
+  - landing
+  - dark-theme
+  - wide
 ---
 # Visualizaciones – Investigaciones en Conservación del Patrimonio (ICP 2024)
 
