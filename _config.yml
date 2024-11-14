@@ -7,8 +7,8 @@ plugins:
 - jekyll-include-cache
 
 include: ["_pages"]
-title: "V Congreso Iberoamericano de Investigación en Conservación del Patrimonio"
-subtitle: "ICP 2024"
+#title: "V Congreso Iberoamericano de Investigación en Conservación del Patrimonio"
+#subtitle: "ICP 2024"
 
 footer:
   links:
@@ -24,3 +24,7 @@ footer:
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCWGHwvW7nhxWyKco1wtmYhw"
+
+logo: "assets/images/LogoCV.png"
+
+masthead_title: "Proyecto ClioViz"
